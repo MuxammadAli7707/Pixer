@@ -5,9 +5,11 @@
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
+    width: 1150px;
+    padding: 0 25px;
+    margin: auto;
 }
+
 .row {
     display: flex;
     flex-flow: row wrap;
@@ -28,6 +30,7 @@
 }
 
 .middle {
+    display: flex;
     align-items: center;
 }
 
